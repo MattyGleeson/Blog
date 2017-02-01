@@ -75,9 +75,10 @@ session_start();
 
                     <div class="row">
 
-                        <a class="material-button material-ripple col-sm-1" style="background-color: gray;" href="../index.php">Cancel</a>
-                        <a class="material-button material-ripple col-sm-1 col-sm-offset-10" href="#" onclick="savePost()">Save</a>
-
+                        <div class="col-sm-3 col-sm-offset-9">
+                            <a class="material-button material-ripple col-sm-5" style="background-color: gray;" href="../index.php">Cancel</a>
+                            <a class="material-button material-ripple col-sm-5 col-sm-offset-2" href="#" onclick="savePost()">Save</a>
+                        </div>
                     </div>
 
                     <script type="text/javascript">
