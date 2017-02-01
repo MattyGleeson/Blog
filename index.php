@@ -37,6 +37,59 @@ if( ! $_SESSION['loggedIn']) {
     <div class="col-sm-10 main-content fill-vertical" style="padding: 50px">
         <div id="post-container" style="height: 100%;">
 
+<!--            --><?php
+//            $_DB_HOST = "localhost";
+//            $_DB_USER = "blog";
+//            $_DB_PASS = "blogdbpassword";
+//            $_DB_DB = "blog";
+//
+//            $mysqli = new mysqli($_DB_HOST, $_DB_USER, $_DB_PASS, $_DB_DB);
+//            if (mysqli_connect_errno()) {
+//                printf("Connect failed: %s\n", mysqli_connect_error());
+//                exit();
+//            }
+//
+//            if ($stmt = $mysqli->prepare("SELECT * FROM posts"))
+//            {
+//                $stmt->execute();
+//                $stmt->bind_result($id, $title, $content, $date, $user, $userID);
+//
+//                while ($stmt->fetch())
+//                {
+//                    trigger_error("Id: [$id], Title: [$title], Content: [$content], Date: [$date], User: [$user], User Id: [$userID]");
+//
+//                    echo "
+//                    <div class=\"card\" style=\"width: 100%\">
+//                        <div class=\"col-sm-10\">
+//                            <label>$title</label>
+//                            <p class=\"post-text\">
+//                                $content
+//                            </p>
+//                        </div>
+//
+//                        <div class=\"col-sm-2\">
+//                            <p>
+//                                <span style=\"font-weight: bold\">Date - </span>
+//                                $date
+//                                <br>
+//                                <span style=\"font-weight: bold\">User - </span>
+//                                $user
+//                            </p>
+//                            <div class=\"row\">
+//                                <a class=\"material-button material-ripple col-sm-5 col-sm-offset-1\" href=\"#\">Modify</a>
+//                                <a class=\"material-button material-ripple col-sm-5 col-sm-offset-1\" href=\"php/view.php\">Expand</a>
+//                            </div>
+//                        </div>
+//                    </div>
+//                    ";
+//
+//                }
+//
+//                $stmt->close();
+//                $mysqli->close();
+//            }
+//
+//            ?>
             <div class="card" style="width: 100%">
                 <div class="col-sm-10">
                     <label>Card 1</label>
